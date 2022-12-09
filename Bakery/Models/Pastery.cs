@@ -17,7 +17,8 @@ namespace Bakery.Models
       int pastryCost = 0;
       if (PastryAmount <= 2) {
         pastryCost = PastryAmount * 2;
-      } else {
+      } 
+      else {
         pastryCost = (((PastryAmount - (PastryAmount % 3)) / 3) * 5) + ((PastryAmount % 3) * 2);
       }
       return pastryCost;

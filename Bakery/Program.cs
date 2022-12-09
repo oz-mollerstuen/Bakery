@@ -16,7 +16,7 @@ namespace Bakery
 
       while(!leave)
       {
-        Console.WriteLine("Step on up! Prices are on the board, and you won't be bored of our prices!" + "\n" + "*-----------------------------*");
+        Console.WriteLine("Step on up! Prices are on the board, and you won't be bored of our prices!" + "\n" + "-------------------------------------------------");
         Console.WriteLine("\n" + "Bread: $3" + "\n" + "Pastries: $2" + "\n");
         Console.WriteLine("-------------------------------------------------" + "\n" + "Today's Specials: " + "\n");
         Console.WriteLine("Bread ---> Buy Two, get one FREE" + "\n" + "Pastries: ---> THREE for FIVE" + "\n");
@@ -36,7 +36,8 @@ namespace Bakery
             Console.WriteLine(pastryPrice + " dollars for the pastries..." + "\n" + "and..." + "\n" + breadPrice + " dollars for bread!" + "\n");
             Console.WriteLine("Your total today will be: $" + newPastry.Total(breadPrice, pastryPrice));
         }
-        else {
+        else 
+        {
             Console.WriteLine("Either I'm losing it, or you forgot to get anything.");
         }
         Console.WriteLine("Is there anything else I can do for you today? [Y or N]" + "\n");
@@ -45,15 +46,12 @@ namespace Bakery
             leave = false;
             Console.WriteLine("You got it!");
         }
-        else {
+        else 
+        {
             Console.WriteLine("\n" + "Thank you for stopping by! We'll see you next time you 'roll' through!");
             leave = true;
         }
-
-        }
-
-        
       }
-
     }
   }
+}
