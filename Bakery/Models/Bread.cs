@@ -18,7 +18,7 @@ namespace Bakery.Models
       if (BreadAmount <= 2) {
         breadCost = BreadAmount * 5;
       } else {
-        breadCost = (((BreadAmount - (BreadAmount % 3)) * 5) * 2/3) + ((BreadAmount % 3) * 5);
+        breadCost = 
       }
       return breadCost;
     }
