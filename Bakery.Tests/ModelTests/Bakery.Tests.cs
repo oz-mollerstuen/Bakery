@@ -26,8 +26,8 @@ namespace Bakery.Tests
     public void GetPastryAndBreadAmount_ReturnsTotalAmount_Int()
     {
       
-      int pastryAmount = 4;
-      int breadAmount = 4;
+      int pastryAmount = 1;
+      int breadAmount = 1;
       Bread newBread = new Bread (breadAmount);
       Pastry newPastry = new Pastry (breadAmount);
      

@@ -12,5 +12,15 @@ namespace Bakery.Models
       BreadAmount = breadAmount;
     }
 
+    public int BreadTotal(int breadAmount)
+    {
+      int breadCost = 0;
+      if (BreadAmount <= 2) {
+        breadCost = BreadAmount * 5;
+      } else {
+        breadCost = (((BreadAmount - (BreadAmount % 3)) * 5) * 2/3) + ((BreadAmount % 3) * 5);
+      }
+      return breadCost;
+    }
   }
 }
