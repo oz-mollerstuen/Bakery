@@ -11,7 +11,8 @@ namespace Bakery.Models
     {
       PastryAmount = pastryAmount;
     }
-   public int PastryTotal(int pastryAmount)
+   
+    public int PastryTotal(int pastryAmount)
     {
       int pastryCost = 0;
       if (PastryAmount <= 2) {
@@ -21,10 +22,11 @@ namespace Bakery.Models
       }
       return pastryCost;
     }
+    
     public int Total(int breadCost, int pastryCost)
     {
       int totalPrice = breadCost + pastryCost;
       return totalPrice;
     }
-    }
   }
+}
