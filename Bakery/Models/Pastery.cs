@@ -21,6 +21,10 @@ namespace Bakery.Models
       }
       return pastryCost;
     }
-
+    public int Total(int breadCost, int pastryCost)
+    {
+      int totalPrice = breadCost + pastryCost;
+      return totalPrice;
+    }
     }
   }

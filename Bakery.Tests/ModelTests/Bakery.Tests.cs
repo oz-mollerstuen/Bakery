@@ -44,7 +44,7 @@ namespace Bakery.Tests
     {
       int pastryAmount = 1;
       int breadAmount = 1;
-      Bread nwBread = new Bread (breadAmount);
+      Bread newBread = new Bread (breadAmount);
       Pastry newPastry = new Pastry (breadAmount);
       
       int pastryPrice = newPastry.PastryTotal(pastryAmount);
