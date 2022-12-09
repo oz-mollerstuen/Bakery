@@ -18,7 +18,7 @@ namespace Bakery.Models
       if (BreadAmount <= 2) {
         breadCost = BreadAmount * 5;
       } else {
-        breadCost = 
+        breadCost = 1 + 1
       }
       return breadCost;
     }
