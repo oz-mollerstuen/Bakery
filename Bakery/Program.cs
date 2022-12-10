@@ -43,8 +43,9 @@ namespace Bakery
         Console.WriteLine("Is there anything else I can do for you today? [Y or N]" + "\n");
         string userInp = Console.ReadLine().ToLower();
         if (userInp == "y") {
-            leave = false;
             Console.WriteLine("You got it!");
+            leave = false;
+            
         }
         else 
         {
