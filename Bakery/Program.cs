@@ -23,8 +23,6 @@ namespace Bakery
         Console.WriteLine("How many loaves of bread today?");
         string stringBreadAmount = Console.ReadLine();
         int breadAmount = int.Parse(stringBreadAmount);
-        Console.WriteLine("And would you like:" + "\n" + "[1] White Bread" + "\n" + "[2] Pumpernickle" + "\n" + "Or" + "\n" + "[3] Sourdough?")
-        string bChoice = Console.ReadLine();
         Console.WriteLine("And how many pastries would you like?");
         string stringPastryAmount = Console.ReadLine();
         int pastryAmount = int.Parse(stringPastryAmount);

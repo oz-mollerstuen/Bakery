@@ -23,7 +23,7 @@ _This application will ask users for orders for both bread loaves and pastries a
 
 ## Known Bugs
 
-* _input will only allow int from 0 up_
+* _input will only allow int from '0' and up_
 
 ## License
 
